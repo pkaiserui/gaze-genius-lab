@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
-
+ 
 const queryClient = new QueryClient();
 
 const App = () => (
