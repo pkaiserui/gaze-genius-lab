@@ -11,12 +11,15 @@ import Terms from "./pages/Terms";
  
 const queryClient = new QueryClient();
 
+// Use GitHub Pages base only in production; use root in dev so Vite dev server routing works
+const routerBasename = import.meta.env.PROD ? import.meta.env.BASE_URL : "/";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={routerBasename}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
