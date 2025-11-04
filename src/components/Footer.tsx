@@ -21,7 +21,6 @@ export const Footer = () => {
               <li><a href={base + "#features"} className="hover:text-accent transition-colors">Features</a></li>
               <li><a href={base + "#benefits"} className="hover:text-accent transition-colors">Benefits</a></li>
               <li><a href={base + "#how-it-works"} className="hover:text-accent transition-colors">How It Works</a></li>
-              {/* <li><a href="#" className="hover:text-accent transition-colors">Integrations</a></li> */}
             </ul>
           </div>
 

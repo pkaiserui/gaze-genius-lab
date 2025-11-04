@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/gaze-genius-lab/" : "/",
+  base: process.env.DEPLOY_BASE || "/",
   build: {
     assetsDir: "assets",
     rollupOptions: {
