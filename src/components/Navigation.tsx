@@ -11,7 +11,7 @@ export const Navigation = () => {
 				<div className="flex items-center justify-between h-16 lg:h-20">
 					<div className="flex items-center space-x-2">
 						<img
-							src="/android-chrome-192x192.png"
+							src="/gaze-genius-lab/android-chrome-192x192.png"
 							alt="Industrial Video Insights logo"
 							className="w-8 h-8 rounded-lg object-cover"
 						/>
@@ -22,19 +22,19 @@ export const Navigation = () => {
 
 					<div className="hidden lg:flex items-center space-x-8">
 						<a
-							href="/#features"
+							href="/gaze-genius-lab/#features"
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Product
 						</a>
 						<a
-							href="/#benefits"
+							href="/gaze-genius-lab/#benefits"
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Benefits
 						</a>
 						<a
-							href="/#how-it-works"
+							href="/gaze-genius-lab/#how-it-works"
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							How It Works
@@ -60,25 +60,25 @@ export const Navigation = () => {
 				{isMenuOpen && (
 					<div className="lg:hidden py-4 space-y-4 border-t border-border">
 						<a
-							href="/about"
+							href="/gaze-genius-lab/about"
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							About
 						</a>
 						<a
-							href="/#features"
+							href="/gaze-genius-lab/#features"
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Features
 						</a>
 						<a
-							href="/#benefits"
+							href="/gaze-genius-lab/#benefits"
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Benefits
 						</a>
 						<a
-							href="/#how-it-works"
+							href="/gaze-genius-lab/#how-it-works"
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							How It Works
