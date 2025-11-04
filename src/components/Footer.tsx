@@ -18,8 +18,8 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#features" className="hover:text-accent transition-colors">Features</a></li>
               <li><a href="#benefits" className="hover:text-accent transition-colors">Benefits</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Integrations</a></li>
+              <li><a href="#how-it-works" className="hover:text-accent transition-colors">How It Works</a></li>
+              {/* <li><a href="#" className="hover:text-accent transition-colors">Integrations</a></li> */}
             </ul>
           </div>
 
@@ -27,19 +27,19 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="/about" className="hover:text-accent transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Blog</a></li>
+              {/* <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li> */}
+              {/* <li><a href="#" className="hover:text-accent transition-colors">Contact</a></li> */}
+              {/* <li><a href="#" className="hover:text-accent transition-colors">Blog</a></li> */}
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Security</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">GDPR</a></li>
+              <li><a href="/privacy" className="hover:text-accent transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-accent transition-colors">Terms of Service</a></li>
+              {/* <li><a href="#" className="hover:text-accent transition-colors">Security</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">GDPR</a></li> */}
             </ul>
           </div>
         </div>

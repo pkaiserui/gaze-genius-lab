@@ -12,11 +12,17 @@ const About = () => {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl lg:text-5xl font-bold">About Industrial Video Insights</h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Industrial Video Insights is a startup focused on delivering value by providing actionable
-                insights using AI. We build scalable video analytics, multimodal search and automated
-                summarization to help organizations extract intelligence from their video data and
-                accelerate decision making.
-              </p>
+                Industrial Video Insights is a startup on a mission to unlock the full potential of video data through the power of AI. We help organizations transform vast amounts of unstructured video into actionable intelligence that drives smarter, faster decisions.
+                </p>
+                <br></br>
+                <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
+                Our platform combines scalable video analytics, multimodal search, and automated summarization to make it easy to find, understand, and act on what matters most. By integrating advanced computer vision, natural language processing, and machine learning, we deliver insights that improve operational efficiency, safety, and strategic decision-making across industries.
+                </p>
+                <br></br>
+                <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
+                  At Industrial Video Insights, we believe that video holds untapped value. Our goal is to help businesses move beyond manual review and static archives—turning video into a dynamic source of knowledge that empowers people, teams, and organizations to see more clearly and act more decisively.
+                </p>
+
             </div>
           </div>
         </section>

@@ -23,13 +23,15 @@ export const CTA = () => {
               Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button> */}
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-base lg:text-lg px-8 py-6"
-            >
-              Schedule Demo
-            </Button>
+            <a href="https://calendar.app.google/eERzu3NGVVtWQLEP7" target="_blank" rel="noopener noreferrer">
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-base lg:text-lg px-8 py-6"
+              >
+                Schedule Demo
+              </Button>
+            </a>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/90">
