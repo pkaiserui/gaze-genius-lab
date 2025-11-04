@@ -43,7 +43,7 @@ export const Hero = () => {
 
             <div className="flex items-center gap-8 pt-4">
               <div>
-                <div className="text-2xl lg:text-3xl font-bold text-foreground">Sub-second</div>
+                <div className="text-2xl lg:text-3xl font-bold text-foreground">Brief seconds</div>
                 <div className="text-sm text-muted-foreground">Semantic search</div>
               </div>
               <div className="h-12 w-px bg-border" />
