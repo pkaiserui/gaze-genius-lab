@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="inline-block">
               <span className="text-xs lg:text-sm font-semibold uppercase tracking-wider text-accent">
-                Multimodal Video Search & Summarization
+                Multimodal Industrial Video Insights
               </span>
             </div>
             
@@ -24,16 +24,16 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
+              {/* <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-primary/90 shadow-lg hover:shadow-xl transition-all text-base lg:text-lg px-8 py-6"
               >
                 Try Live Demo
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              </Button> */}
               <Button 
                 size="lg" 
-                variant="outline"
+                // variant="outline"
                 className="text-base lg:text-lg px-8 py-6 border-2"
               >
                 <Play className="mr-2 h-5 w-5" />

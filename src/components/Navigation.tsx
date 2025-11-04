@@ -12,11 +12,14 @@ export const Navigation = () => {
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent"></div>
             <span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Video Search & Summarization
+              Industrial Video Insights
             </span>
           </div>
 
           <div className="hidden lg:flex items-center space-x-8">
+            <a href="/about" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+              About
+            </a>
             <a href="#features" className="text-sm font-medium text-foreground hover:text-accent transition-colors">
               Product
             </a>
@@ -42,6 +45,9 @@ export const Navigation = () => {
 
         {isMenuOpen && (
           <div className="lg:hidden py-4 space-y-4 border-t border-border">
+            <a href="/about" className="block text-sm font-medium text-foreground hover:text-accent transition-colors">
+              About
+            </a>
             <a href="#features" className="block text-sm font-medium text-foreground hover:text-accent transition-colors">
               Features
             </a>
