@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 
+const base = import.meta.env.BASE_URL;
+
 export const Navigation = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -10,9 +12,9 @@ export const Navigation = () => {
 			<div className="container mx-auto px-4 lg:px-8">
 				<div className="flex items-center justify-between h-16 lg:h-20">
 					<div className="flex items-center space-x-2">
-						<a href="/gaze-genius-lab/" className="flex items-center space-x-2">
+						<a href={base} className="flex items-center space-x-2">
 							<img
-								src="/gaze-genius-lab/android-chrome-192x192.png"
+								src={base + "android-chrome-192x192.png"}
 								alt="Industrial Video Insights logo"
 								className="w-8 h-8 rounded-lg object-cover"
 							/>
@@ -24,19 +26,19 @@ export const Navigation = () => {
 
 					<div className="hidden lg:flex items-center space-x-8">
 						<a
-							href="/gaze-genius-lab/#features"
+							href={base + "#features"}
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Product
 						</a>
 						<a
-							href="/gaze-genius-lab/#benefits"
+							href={base + "#benefits"}
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Benefits
 						</a>
 						<a
-							href="/gaze-genius-lab/#how-it-works"
+							href={base + "#how-it-works"}
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							How It Works
@@ -62,25 +64,25 @@ export const Navigation = () => {
 				{isMenuOpen && (
 					<div className="lg:hidden py-4 space-y-4 border-t border-border">
 						<a
-							href="/gaze-genius-lab/about"
+							href={base + "about"}
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							About
 						</a>
 						<a
-							href="/gaze-genius-lab/#features"
+							href={base + "#features"}
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Features
 						</a>
 						<a
-							href="/gaze-genius-lab/#benefits"
+							href={base + "#benefits"}
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Benefits
 						</a>
 						<a
-							href="/gaze-genius-lab/#how-it-works"
+							href={base + "#how-it-works"}
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							How It Works
