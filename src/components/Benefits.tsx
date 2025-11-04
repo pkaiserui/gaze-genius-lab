@@ -97,7 +97,7 @@ export const Benefits = () => {
                   <span className="text-3xl font-bold text-accent">→</span>
                 </div>
                 <div className="flex flex-col items-center flex-1">
-                  <span className="text-base font-semibold text-muted-foreground mb-2">1 hour processed at 100x speed with multiple parallel GPUs<br /></span>
+                  <span className="text-base font-semibold text-muted-foreground mb-2">1 hour of video processed at 100x speed with multiple parallel GPUs<br /></span>
                   <CountdownTimer minutes={0.6} />
                   <span className='text-accent font-bold'>(only 36 seconds!)</span>
                 </div>

@@ -43,13 +43,19 @@ export const Navigation = () => {
 						>
 							How It Works
 						</a>
-						<Button
-							variant="default"
-							size="lg"
-							className="bg-gradient-to-r from-primary to-primary/90 shadow-md hover:shadow-lg transition-all"
+						<a 
+							href="https://calendar.app.google/eERzu3NGVVtWQLEP7" 
+							target="_blank" 
+							rel="noopener noreferrer"
 						>
-							Watch Demo
-						</Button>
+							<Button
+								variant="default"
+								size="lg"
+								className="bg-gradient-to-r from-primary to-primary/90 shadow-md hover:shadow-lg transition-all"
+							>
+								Schedule Demo
+							</Button>
+						</a>
 					</div>
 
 					<button
@@ -87,13 +93,19 @@ export const Navigation = () => {
 						>
 							How It Works
 						</a>
-						<Button
-							variant="default"
-							size="lg"
-							className="w-full bg-gradient-to-r from-primary to-primary/90"
+						<a 
+							href="https://calendar.app.google/eERzu3NGVVtWQLEP7" 
+							target="_blank" 
+							rel="noopener noreferrer"
 						>
-							 Watch Demo
-						</Button>
+							<Button
+								variant="default"
+								size="lg"
+								className="w-full bg-gradient-to-r from-primary to-primary/90"
+							>
+								Schedule Demo
+							</Button>
+						</a>
 					</div>
 				)}
 			</div>
