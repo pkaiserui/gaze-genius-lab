@@ -6,10 +6,10 @@ export const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent"></div>
-              <span className="text-lg font-bold">VideoAI Analytics</span>
+              <span className="text-lg font-bold">Industrial Video Insights</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Transforming video data into actionable intelligence with advanced AI technology.
+              Multimodal video search and automated summarization — index, query and extract highlights from audio and visual content with enterprise-grade security.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 VideoAI Analytics. All rights reserved.</p>
+          <p>&copy; 2025 Industrial Video Insights. All rights reserved.</p>
         </div>
       </div>
     </footer>

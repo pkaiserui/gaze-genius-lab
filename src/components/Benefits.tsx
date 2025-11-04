@@ -18,40 +18,36 @@ export const Benefits = () => {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
-                <img 
-                  src={monitoringImage} 
-                  alt="Real-time monitoring interface" 
+                <img
+                  src={monitoringImage}
+                  alt="Real-time monitoring interface"
                   className="w-full h-auto"
                 />
               </div>
             </div>
+
             <div className="space-y-6 order-1 lg:order-2">
               <h3 className="text-3xl lg:text-4xl font-bold">
-                Continuous monitoring, zero blind spots
+                Build AI agents for video analytics at scale
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our AI never sleeps. Monitor multiple video feeds simultaneously with intelligent 
-                alerting that notifies you only when it matters. Reduce false positives by 95% 
-                while ensuring nothing important goes unnoticed.
+                Create intelligent video analytics agents that analyze, interpret, and
+                process massive video streams and archives. Compose detection, search,
+                summarization and orchestration into reusable agent workflows that
+                scale with your operations.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
                     <div className="w-2 h-2 rounded-full bg-accent"></div>
                   </div>
-                  <span className="text-foreground">Automatic threat detection and classification</span>
+                  <span className="text-foreground">Agent-driven pipelines to orchestrate detection, search and response</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
                     <div className="w-2 h-2 rounded-full bg-accent"></div>
                   </div>
-                  <span className="text-foreground">Intelligent alert prioritization</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-accent"></div>
-                  </div>
-                  <span className="text-foreground">Multi-camera coordination and tracking</span>
+                  <span className="text-foreground">Scale to thousands of cameras and large video archives</span>
                 </li>
               </ul>
             </div>
@@ -60,39 +56,83 @@ export const Benefits = () => {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6">
               <h3 className="text-3xl lg:text-4xl font-bold">
-                Transform data into strategic decisions
+                Summarize hours of video up to 100× faster
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Go beyond basic analytics. Our platform provides deep insights into patterns, 
-                trends, and anomalies that inform strategic planning. Generate comprehensive 
-                reports in seconds, not hours.
+                Automatically generate concise summaries, highlight reels and time-aligned
+                transcripts so teams spend minutes reviewing what used to take hours.
+                Combine semantic search with ASR to find and surface the most relevant
+                moments instantly.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
                     <div className="w-2 h-2 rounded-full bg-accent"></div>
                   </div>
-                  <span className="text-foreground">Automated report generation and distribution</span>
+                  <span className="text-foreground">Automatic transcripts, chapters and ranked highlights</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
                     <div className="w-2 h-2 rounded-full bg-accent"></div>
                   </div>
-                  <span className="text-foreground">Historical trend analysis and forecasting</span>
+                  <span className="text-foreground">Summaries and reels that reduce manual review time by orders of magnitude</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
                     <div className="w-2 h-2 rounded-full bg-accent"></div>
                   </div>
-                  <span className="text-foreground">Custom KPI tracking and visualization</span>
+                  <span className="text-foreground">Accelerate development with pre-built generative AI building blocks and agent templates</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
+                <img
+                  src={insightsImage}
+                  alt="Analytics dashboard with insights"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="space-y-6">
+              <h3 className="text-3xl lg:text-4xl font-bold">
+                Augment vision pipelines and deploy where you need
+              </h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Combine traditional computer vision with Vision-Language Models (VLMs)
+                for richer semantic understanding. Choose optimized deployments from
+                the enterprise edge to cloud to meet latency, cost and security needs.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
+                    <div className="w-2 h-2 rounded-full bg-accent"></div>
+                  </div>
+                  <span className="text-foreground">Augment detectors with VLMs for object, scene and intent understanding</span>
+                </li>
+                <li className="flex items-start">
+                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
+                    <div className="w-2 h-2 rounded-full bg-accent"></div>
+                  </div>
+                  <span className="text-foreground">Flexible, optimized deployments: edge, on-premise, and cloud</span>
+                </li>
+                <li className="flex items-start">
+                  <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center mt-1 mr-3 flex-shrink-0">
+                    <div className="w-2 h-2 rounded-full bg-accent"></div>
+                  </div>
+                  <span className="text-foreground">Secure APIs and integrations for operational workflows and reporting</span>
                 </li>
               </ul>
             </div>
             <div>
               <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
-                <img 
-                  src={insightsImage} 
-                  alt="Analytics dashboard with insights" 
+                <img
+                  src={insightsImage}
+                  alt="Analytics dashboard with insights"
                   className="w-full h-auto"
                 />
               </div>

@@ -9,11 +9,10 @@ export const CTA = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
-            Ready to transform your video analytics?
+            Explore multimodal search and automated summaries
           </h2>
           <p className="text-xl text-white/90 mb-12 leading-relaxed">
-            Join hundreds of organizations using AI to unlock insights from their video data. 
-            Start your free trial today—no credit card required.
+            Index, search and summarize your video archives — get transcripts, highlight reels, and API access to embed video understanding into your applications. Try the live demo or run a free evaluation on your data.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -36,15 +35,15 @@ export const CTA = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/90">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5" />
-              <span>14-day free trial</span>
+              <span>Live demo & API access</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5" />
-              <span>No credit card needed</span>
+              <span>Evaluate on your data</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5" />
-              <span>Cancel anytime</span>
+              <span>Enterprise support available</span>
             </div>
           </div>
         </div>
