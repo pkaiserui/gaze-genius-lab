@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent"></div>
+              <img src="/android-chrome-192x192.png" alt="Industrial Video Insights logo" className="w-8 h-8 rounded-lg object-cover" />
               <span className="text-lg font-bold">Industrial Video Insights</span>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -16,9 +16,9 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#features" className="hover:text-accent transition-colors">Features</a></li>
-              <li><a href="#benefits" className="hover:text-accent transition-colors">Benefits</a></li>
-              <li><a href="#how-it-works" className="hover:text-accent transition-colors">How It Works</a></li>
+              <li><a href="/#features" className="hover:text-accent transition-colors">Features</a></li>
+              <li><a href="/#benefits" className="hover:text-accent transition-colors">Benefits</a></li>
+              <li><a href="/#how-it-works" className="hover:text-accent transition-colors">How It Works</a></li>
               {/* <li><a href="#" className="hover:text-accent transition-colors">Integrations</a></li> */}
             </ul>
           </div>

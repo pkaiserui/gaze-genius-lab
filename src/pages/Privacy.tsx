@@ -158,8 +158,8 @@ const Privacy = () => {
               <ul className="list-none pl-0 mt-3 text-muted-foreground">
                 <li><strong>Industrial Video Insights</strong></li>
                 <li>Email: <a href="mailto:privacy@industrialvideoinsights.com" className="text-primary underline">privacy@industrialvideoinsights.com</a></li>
-                <li>Address: [Insert Company Address]</li>
-                <li>Data Protection Officer: [Insert Name or “N/A”]</li>
+                {/* <li>Address: [Insert Company Address]</li> */}
+                {/* <li>Data Protection Officer: [Insert Name or “N/A”]</li> */}
               </ul>
             </div>
           </div>

@@ -10,6 +10,7 @@ const About = () => {
         <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 bg-background">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
+              <img src="/android-chrome-192x192.png" alt="Industrial Video Insights logo" className="mx-auto w-48 h-48 rounded-lg object-cover mb-8" />
               <h1 className="text-4xl lg:text-5xl font-bold">About Industrial Video Insights</h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
                 Industrial Video Insights is a startup on a mission to unlock the full potential of video data through the power of AI. We help organizations transform vast amounts of unstructured video into actionable intelligence that drives smarter, faster decisions.
