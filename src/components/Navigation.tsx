@@ -44,7 +44,7 @@ export const Navigation = () => {
 							size="lg"
 							className="bg-gradient-to-r from-primary to-primary/90 shadow-md hover:shadow-lg transition-all"
 						>
-							Get Started
+							Watch Demo
 						</Button>
 					</div>
 
@@ -88,7 +88,7 @@ export const Navigation = () => {
 							size="lg"
 							className="w-full bg-gradient-to-r from-primary to-primary/90"
 						>
-							Get Started
+							 Watch Demo
 						</Button>
 					</div>
 				)}
