@@ -105,8 +105,8 @@ const Terms = () => {
 
               <h2 className="mt-8 text-2xl font-semibold">13. Governing Law and Dispute Resolution</h2>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                These Terms are governed by and construed in accordance with the laws of [Insert Jurisdiction, e.g., Delaware, USA]. 
-                Any disputes will be resolved exclusively in the courts or arbitration forums located in [Insert City or Jurisdiction], unless otherwise required by law.
+                These Terms are governed by and construed in accordance with the laws of the State of Minnesota, USA. 
+                Any disputes will be resolved exclusively in the state or federal courts located in Minneapolis, Minnesota, unless otherwise required by law.
               </p>
 
               <h2 className="mt-8 text-2xl font-semibold">14. Changes to These Terms</h2>

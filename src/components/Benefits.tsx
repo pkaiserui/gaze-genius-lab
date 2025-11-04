@@ -88,16 +88,16 @@ export const Benefits = () => {
 
             <div>
               <div className="text-xl font-bold text-center mb-6">Time to Process Video</div>
-              <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)] flex flex-row items-center justify-between gap-8 bg-white/80 py-8 px-8">
-                <div className="flex flex-col items-center flex-1">
-                  <span className="text-base font-semibold text-muted-foreground mb-2">1 hour of video (real time)</span>
+              <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)] flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 bg-white/80 py-6 md:py-8 px-4 md:px-8">
+                <div className="flex flex-col items-center flex-1 w-full md:w-auto">
+                  <span className="text-sm md:text-base font-semibold text-muted-foreground mb-2 text-center">1 hour of video (real time)</span>
                   <CountdownTimer minutes={60} />
                 </div>
-                <div className="flex items-center justify-center flex-shrink-0 mx-8">
-                  <span className="text-3xl font-bold text-accent">→</span>
+                <div className="flex items-center justify-center flex-shrink-0 mx-0 md:mx-8 my-2 md:my-0">
+                  <span className="text-2xl md:text-3xl font-bold text-accent">→</span>
                 </div>
-                <div className="flex flex-col items-center flex-1">
-                  <span className="text-base font-semibold text-muted-foreground mb-2">1 hour of video processed at 100x speed with multiple parallel GPUs<br /></span>
+                <div className="flex flex-col items-center flex-1 w-full md:w-auto">
+                  <span className="text-sm md:text-base font-semibold text-muted-foreground mb-2 text-center">1 hour of video processed at 100x speed with multiple parallel GPUs</span>
                   <CountdownTimer minutes={0.6} />
                   <span className='text-accent font-bold'>(only 36 seconds!)</span>
                 </div>

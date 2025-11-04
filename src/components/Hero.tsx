@@ -143,19 +143,19 @@ export const Hero = () => {
               </Dialog>
             </div>
 
-            <div className="flex items-center gap-8 pt-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8 pt-4">
               <div>
-                <div className="text-2xl lg:text-3xl font-bold text-foreground">Brief seconds</div>
+                <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground">Brief seconds</div>
                 <div className="text-sm text-muted-foreground">Semantic search</div>
               </div>
-              <div className="h-12 w-px bg-border" />
+              <div className="hidden sm:block h-12 w-px bg-border" />
               <div>
-                <div className="text-2xl lg:text-3xl font-bold text-foreground">GPU-accelerated</div>
+                <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground">GPU-accelerated</div>
                 <div className="text-sm text-muted-foreground">High-throughput inference</div>
               </div>
-              <div className="h-12 w-px bg-border" />
+              <div className="hidden sm:block h-12 w-px bg-border" />
               <div>
-                <div className="text-2xl lg:text-3xl font-bold text-foreground">Automatic</div>
+                <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground">Automatic</div>
                 <div className="text-sm text-muted-foreground">Transcripts & summaries</div>
               </div>
             </div>
