@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { calendarLink } from "@/lib/constants";
 
 export const CTA = () => {
   return (
@@ -23,7 +25,7 @@ export const CTA = () => {
               Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button> */}
-            <a href="https://calendar.app.google/eERzu3NGVVtWQLEP7" target="_blank" rel="noopener noreferrer">
+            <a href={calendarLink} target="_blank" rel="noopener noreferrer">
               <Button 
                 size="lg" 
                 variant="outline"

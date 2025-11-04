@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { calendarLink } from "@/lib/constants";
 
 const base = import.meta.env.BASE_URL;
 
@@ -44,7 +45,7 @@ export const Navigation = () => {
 							How It Works
 						</a>
 						<a 
-							href="https://calendar.app.google/eERzu3NGVVtWQLEP7" 
+							href={calendarLink} 
 							target="_blank" 
 							rel="noopener noreferrer"
 						>
@@ -94,7 +95,7 @@ export const Navigation = () => {
 							How It Works
 						</a>
 						<a 
-							href="https://calendar.app.google/eERzu3NGVVtWQLEP7" 
+							href={calendarLink} 
 							target="_blank" 
 							rel="noopener noreferrer"
 						>
