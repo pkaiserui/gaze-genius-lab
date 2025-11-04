@@ -62,48 +62,47 @@ This project is built with:
 
 ## How can I deploy this project?
 
-This project can be deployed to GitHub Pages. The app already reads the production base URL via `import.meta.env.BASE_URL` and sets the router basename in `src/App.tsx`, so you only need to build with the correct base and publish the `dist` folder.
+This project is configured to deploy to GitHub Pages at https://pkaiserui.github.io/gaze-genius-lab/. Follow these steps to deploy:
 
-Two recommended options:
+1. First, ensure GitHub Pages is enabled in your repository:
+   - Go to your repository Settings
+   - Navigate to Pages
+   - Under "Build and deployment", select "Deploy from a branch"
+   - Select "gh-pages" branch and "/ (root)" folder
+   - Click Save
 
-- Quick (build + publish manually using gh-pages):
-
-  1. Install `gh-pages` if you don't have it (this repo already includes it in devDependencies):
-     ```sh
-     npm i --save-dev gh-pages
+2. Make sure your local configuration is correct:
+   - In `vite.config.ts`, the base URL should be set to:
+     ```ts
+     base: "/gaze-genius-lab/",
      ```
-  2. Build with the Vite `--base` flag set to your repo name. For a project page use the repo name (example: `/REPO_NAME/`); for a user/organization site use `/`.
-     ```sh
-     # for a project site (example: https://<USER>.github.io/REPO_NAME)
-     npm run build -- --base "/<REPO_NAME>/"
-
-     # for a user/organization site (example: https://<USER>.github.io)
-     npm run build -- --base "/"
-     ```
-  3. Publish the `dist` folder to GitHub Pages using `gh-pages`:
-     ```sh
-     npx gh-pages -d dist
-     ```
-  4. GitHub Pages will serve the site from the `gh-pages` branch. The repo setting for Pages should show the site published once the branch is pushed.
-
-- Use the provided npm scripts (adjust `predeploy` to include the correct base):
-
-  1. Edit `package.json` to change `predeploy` to pass the `--base` flag, e.g.:
+   - In `package.json`, verify you have these scripts:
      ```json
-     "predeploy": "vite build --base '/<REPO_NAME>/'",
+     "postbuild": "cp dist/index.html dist/404.html",
+     "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"
      ```
-  2. Then run:
-     ```sh
-     npm run deploy
-     ```
-  This will run `predeploy` (the build with the correct base) and then `deploy` which publishes `dist` to the `gh-pages` branch.
 
-Notes and tips:
+3. Deploy the site:
+   ```sh
+   # Install dependencies if you haven't already
+   npm install
 
-- The app's `src/App.tsx` already uses `const routerBasename = import.meta.env.PROD ? import.meta.env.BASE_URL : "/";` so when you build with `--base` Vite sets `import.meta.env.BASE_URL` and the router will use the correct basename automatically.
-- The project includes a `postbuild` script that copies `dist/index.html` to `dist/404.html` for client-side routing fallback when using GitHub Pages.
-- If you prefer automation, you can create a GitHub Action to run the same build + gh-pages publish steps on push to `main`.
+   # Deploy to GitHub Pages
+   npm run deploy
+   ```
+
+This will:
+- Build the project with the correct base URL `/gaze-genius-lab/`
+- Copy `index.html` to `404.html` (via the postbuild script) for client-side routing support
+- Deploy the `dist` folder to the `gh-pages` branch
+- GitHub Pages will serve the site from that branch at https://pkaiserui.github.io/gaze-genius-lab/
+
+To verify the deployment:
+1. Check that the `gh-pages` branch was updated with your latest changes
+2. Go to the repository settings -> Pages
+3. Verify that it's set to deploy from the `gh-pages` branch
+4. Visit https://pkaiserui.github.io/gaze-genius-lab/ to see your deployed site
 
 ## Can I connect a custom domain to my Lovable project?
 
