@@ -10,14 +10,16 @@ export const Navigation = () => {
 			<div className="container mx-auto px-4 lg:px-8">
 				<div className="flex items-center justify-between h-16 lg:h-20">
 					<div className="flex items-center space-x-2">
-						<img
-							src="/gaze-genius-lab/android-chrome-192x192.png"
-							alt="Industrial Video Insights logo"
-							className="w-8 h-8 rounded-lg object-cover"
-						/>
-						<span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-							Industrial Video Insights
-						</span>
+						<a href="/gaze-genius-lab/" className="flex items-center space-x-2">
+							<img
+								src="/gaze-genius-lab/android-chrome-192x192.png"
+								alt="Industrial Video Insights logo"
+								className="w-8 h-8 rounded-lg object-cover"
+							/>
+							<span className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+								Industrial Video Insights
+							</span>
+						</a>
 					</div>
 
 					<div className="hidden lg:flex items-center space-x-8">
