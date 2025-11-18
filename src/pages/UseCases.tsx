@@ -67,12 +67,6 @@ const UseCases = () => {
               <div className="text-center mb-16">
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6">Use Cases</h1>
                 <div className="text-lg text-muted-foreground max-w-3xl mx-auto space-y-4">
-                  <p>
-                    In transportation and logistics, smart cities are using AI-enhanced traffic cameras to reduce crashes by 19–25% while fleets deploying AI dashcams report 50–80% accident rate reductions, translating to huge savings through lower insurance premiums, reduced vehicle damage, and improved fuel efficiency.
-                  </p>
-                  <p>
-                    Healthcare facilities are tapping video analytics to enhance patient safety and optimize staffing, with virtual sitting programs preventing hundreds of falls monthly and delivering $1.5M+ in annual labor savings, while security and surveillance systems across industries are delivering 200–400% ROI within 18–24 months by reducing guard costs by 30–50% and preventing costly incidents.
-                  </p>
                 </div>
               </div>
 
