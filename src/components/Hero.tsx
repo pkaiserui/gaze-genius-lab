@@ -136,7 +136,7 @@ export const Hero = () => {
                       autoPlay
                       playsInline
                     >
-                      <source src="/MOV_9139.mp4" type="video/mp4" />
+                      <source src="/drone_demo_crop.mp4" type="video/mp4" />
                     </video>
                   </div>
                 </DialogContent>
@@ -166,7 +166,7 @@ export const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
               <div className="relative group cursor-pointer">
                 <AutoplayVideo
-                  src="/MOV_9139.mp4"
+                  src="/drone_demo_crop.mp4"
                   className="w-full h-auto"
                   autoPlayOnView={false}
                 />
