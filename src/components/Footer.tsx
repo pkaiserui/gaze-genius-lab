@@ -19,6 +19,7 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href={base + "#features"} className="hover:text-accent transition-colors">Features</a></li>
+              <li><a href={base + "use-cases"} className="hover:text-accent transition-colors">Use Cases</a></li>
               <li><a href={base + "#benefits"} className="hover:text-accent transition-colors">Benefits</a></li>
               <li><a href={base + "#how-it-works"} className="hover:text-accent transition-colors">How It Works</a></li>
             </ul>

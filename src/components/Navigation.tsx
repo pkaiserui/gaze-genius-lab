@@ -33,6 +33,12 @@ export const Navigation = () => {
 							Product
 						</a>
 						<a
+							href={base + "use-cases"}
+							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+						>
+							Use Cases
+						</a>
+						<a
 							href={base + "#benefits"}
 							className="text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
@@ -81,6 +87,12 @@ export const Navigation = () => {
 							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
 						>
 							Features
+						</a>
+						<a
+							href={base + "use-cases"}
+							className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
+						>
+							Use Cases
 						</a>
 						<a
 							href={base + "#benefits"}
