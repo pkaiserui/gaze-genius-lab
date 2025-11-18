@@ -27,6 +27,8 @@ function AutoplayVideo({ src, className, autoPlayOnView = true }: AutoplayVideoP
     
     try {
       if (videoRef.current.paused) {
+        // Safari requires explicit unmute after user interaction.
+        videoRef.current.muted = false;
         await videoRef.current.play();
         setIsPlaying(true);
       } else {
