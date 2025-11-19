@@ -33,7 +33,7 @@ export const Benefits = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Create intelligent video analytics agents that analyze, interpret, and
                 process massive video streams and archives. Compose detection, search,
-                summarization and orchestration into reusable agent workflows that
+                understanding and orchestration into reusable agent workflows that
                 scale with your operations.
               </p>
               <ul className="space-y-4">

@@ -94,8 +94,8 @@ export const Hero = () => {
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Search, summarize, and
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> understand video at scale</span>
+              AI intelligence
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> understands video at scale</span>
             </h1>
 
             <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
@@ -138,7 +138,7 @@ export const Hero = () => {
                       autoPlay
                       playsInline
                     >
-                      <source src="/drone_demo_crop.mp4" type="video/mp4" />
+                      <source src="/Drone_demo.mp4" type="video/mp4" />
                     </video>
                   </div>
                 </DialogContent>
@@ -168,7 +168,7 @@ export const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-strong)]">
               <div className="relative group cursor-pointer">
                 <AutoplayVideo
-                  src="/drone_demo_crop.mp4"
+                  src="/Drone_demo.mp4"
                   className="w-full h-auto"
                   autoPlayOnView={false}
                 />
